@@ -1,0 +1,30 @@
+{
+  "name": "reusable_components",
+  "version": "1.0.0",
+  "main": "build/index",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "plugin-zip": "wp-scripts plugin-zip",
+    "start": "wp-scripts start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/scripts": "^22.5.0",
+    "wp-scripts": "0.0.1-security"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^8.1.1",
+    "@wordpress/blocks": "^11.2.1",
+    "@wordpress/components": "^19.4.0",
+    "@wordpress/element": "^4.1.1",
+    "@wordpress/i18n": "^4.3.1",
+    "react-html-parser": "^2.0.2"
+  },
+  "keywords": [],
+  "description": ""
+}
